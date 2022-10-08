@@ -8,5 +8,5 @@ public class Player : MonoBehaviour
     public static int exp = 0;
     public static float expMax = 30;
     public static int lvl = 1;
-    public static int strength = 1;
+    public static int strength = 50;
 }

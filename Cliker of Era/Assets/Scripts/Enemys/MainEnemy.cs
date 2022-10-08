@@ -8,8 +8,8 @@ public class MainEnemy : MonoBehaviour
     public static float maxHp = 0;
     public int expReward = 0;
     public int moneyReward = 0;
-    public int indexOfEnemy = 0;
-    public int[] counterKills = {0, 0, 0, 0, 0, 0};
+    public static int indexOfEnemy = 0;
+    public static int[] counterKills = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
     private void Update() {
         if (hp <= 0){
             hp = maxHp;
