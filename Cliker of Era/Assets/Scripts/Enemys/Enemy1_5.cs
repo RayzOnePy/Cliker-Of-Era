@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy1_1 : MonoBehaviour
+public class Enemy1_5 : MonoBehaviour
 {
     private void Start() {
         MainEnemy enemy = GetComponent<MainEnemy>();
@@ -10,6 +10,6 @@ public class Enemy1_1 : MonoBehaviour
         MainEnemy.maxHp = 10;
         enemy.expReward = 1;
         enemy.moneyReward = 1;
-        MainEnemy.indexOfEnemy = 0;
+        MainEnemy.indexOfEnemy = 4;
     }
 }
