@@ -8,6 +8,7 @@ public class Enemy1_10 : MonoBehaviour
         MainEnemy enemy = GetComponent<MainEnemy>();
         MainEnemy.hp = 10;
         MainEnemy.maxHp = 10;
+        MainEnemy.isBoss = false;
         enemy.expReward = 1;
         enemy.moneyReward = 1;
         MainEnemy.indexOfEnemy = 9;

@@ -6,6 +6,7 @@ public class MainEnemy : MonoBehaviour
 {
     public static float hp = 0;
     public static float maxHp = 0;
+    [SerializeField]public static bool isBoss = false;
     public int expReward = 0;
     public int moneyReward = 0;
     public static int indexOfEnemy = 0;
