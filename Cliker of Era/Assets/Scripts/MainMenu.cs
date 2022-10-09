@@ -10,13 +10,7 @@ public class MainMenu : MonoBehaviour
     
     public void Play()
     {
-        SceneManager.LoadScene(0); 
-    }
-
-    public void Settings() 
-    {
-        menu.SetActive (false);
-        settingsmenu.SetActive (true);
+        SceneManager.LoadScene(1); 
     }
 
     public void Exit()
