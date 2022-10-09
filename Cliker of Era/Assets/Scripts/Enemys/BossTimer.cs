@@ -8,9 +8,11 @@ public class BossTimer : MonoBehaviour
     private float bossTimer = 30f;
     [SerializeField] 
     private TextMeshProUGUI timerText;
+    [SerializeField]
+    private GameObject timer;
     private void Update() {
         if (MainEnemy.isBoss == true){
-            timerText.gameObject.SetActive(true);
+            timer.SetActive(true);
             bossTimer -= Time.deltaTime;
             timerText.text = Mathf.Round(bossTimer).ToString();
             if (bossTimer <= 0){
@@ -23,7 +25,7 @@ public class BossTimer : MonoBehaviour
         }
         else{
             bossTimer = 30f;
-            timerText.gameObject.SetActive(false);
+            timer.SetActive(false);
         }
     }
 }

@@ -6,11 +6,11 @@ public class Enemy1_10 : MonoBehaviour
 {
     private void Start() {
         MainEnemy enemy = GetComponent<MainEnemy>();
-        MainEnemy.hp = 10;
-        MainEnemy.maxHp = 10;
+        MainEnemy.hp = 1600;
+        MainEnemy.maxHp = 1600;
         MainEnemy.isBoss = false;
-        enemy.expReward = 1;
-        enemy.moneyReward = 1;
+        enemy.expReward = 160;
+        enemy.moneyReward = 160;
         MainEnemy.indexOfEnemy = 9;
     }
 }

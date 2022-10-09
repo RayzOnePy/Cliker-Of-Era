@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 84
+  controlID: 73
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 85
+  controlID: 74
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 86
+  controlID: 75
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites
+    - Assets/Scripts/Enemys
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites
+  - Assets/Scripts/Enemys
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity projects\Cliker of Era\Cliker-Of-Era\Cliker of Era
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 77}
-    m_SelectedIDs: c85a0000
-    m_LastClickedID: 23240
-    m_ExpandedIDs: 00000000b65a0000c05a0000c25a0000c65a0000ffffff7f
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: 565f0000
+    m_LastClickedID: 24406
+    m_ExpandedIDs: 00000000e85a0000145b0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b65a0000
+    m_ExpandedIDs: 00000000e85a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -487,10 +487,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: f65fffff3c60ffff9061ffff9461fffff064ffff3265ffff4a65ffff4e65ffff8666ffffc866fffff267ffff2068ffff5470fffff0f9ffff30fbffffe45b00000a7500003075000042750000
+      scrollPos: {x: 0, y: 43}
+      m_SelectedIDs: 1ae5ffff
+      m_LastClickedID: -6886
+      m_ExpandedIDs: 1ae5fffffef1ffffdef2ffff20f3ffff78f4ffff80f4ffff6af6ffffaaf8ffff30fbffff30650000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -506,7 +506,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -739,9 +739,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -642.99866, y: -276.9396, z: 254.13264}
+    m_Target: {x: 41.919765, y: -475.95358, z: 677.2343}
     speed: 2
-    m_Value: {x: -642.99866, y: -276.9396, z: 254.13264}
+    m_Value: {x: 41.919765, y: -475.95358, z: 677.2343}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -788,13 +788,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.15817876, y: 0.55109215, z: -0.10729602, w: -0.8123002}
+    m_Target: {x: -0.29711914, y: -0.029491566, z: 0.0092019895, w: -0.9543759}
     speed: 2
-    m_Value: {x: -0.15817346, y: 0.5510737, z: -0.10729243, w: -0.812273}
+    m_Value: {x: -0.29710913, y: -0.029490571, z: 0.009201679, w: -0.95434374}
   m_Size:
-    m_Target: 389.43475
+    m_Target: 420.98404
     speed: 2
-    m_Value: 389.43475
+    m_Value: 420.98404
   m_Ortho:
     m_Target: 0
     speed: 2
