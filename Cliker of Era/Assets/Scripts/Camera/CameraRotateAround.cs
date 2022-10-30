@@ -49,9 +49,14 @@ public class CameraRotateAround : MonoBehaviour {
 			H += speedH * Input.GetAxis("Mouse X");
 			Y -= speedV * Input.GetAxis("Mouse Y");
 			Y = Mathf.Clamp(Y, minY, maxY);
+			Debug.Log("sss");
 		}
-		if(Input.GetAxis("Mouse ScrollWheel") > 0) offset.z += zoom;
-		else if(Input.GetAxis("Mouse ScrollWheel") < 0) offset.z -= zoom;
+		if(Input.GetAxis("Mouse ScrollWheel") > 0){
+			offset.z += zoom;
+		}
+		else if(Input.GetAxis("Mouse ScrollWheel") < 0){
+			offset.z -= zoom;
+		}
 		offset.z = Mathf.Clamp(offset.z, -Mathf.Abs(zoomMax), -Mathf.Abs(zoomMin));
 		transform.eulerAngles = new Vector3(Y, H, 0.0f);
 		transform.position = transform.localRotation * offset + target.position;

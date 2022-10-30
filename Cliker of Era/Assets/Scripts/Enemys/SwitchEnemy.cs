@@ -18,6 +18,9 @@ public class SwitchEnemy : MonoBehaviour
             if (MainEnemy.counterKills[MainEnemy.indexOfEnemy] <= 10){
                 kills.text = $"{MainEnemy.counterKills[MainEnemy.indexOfEnemy]} / 10";
             }  
+            else {
+                kills.text = $"10 / 10";
+            }
         } 
     }
     public void NextEnemy(){

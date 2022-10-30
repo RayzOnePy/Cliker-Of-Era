@@ -13,4 +13,7 @@ public class Enemy1_2 : MonoBehaviour
         enemy.moneyReward = 3;
         MainEnemy.indexOfEnemy = 1;
     }
+    private void Update() {
+        Debug.Log(MainEnemy.counterKills[MainEnemy.indexOfEnemy]);
+    }
 }

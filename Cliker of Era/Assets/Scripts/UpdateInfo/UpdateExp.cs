@@ -15,6 +15,6 @@ public class UpdateExp : MonoBehaviour
             Player.lvl += 1;
         }
         lvl.text = $"{Player.lvl}";
-        expBar.fillAmount = Player.exp/Player.expMax;
+        expBar.fillAmount = Player.exp / Player.expMax;
     }
 }
